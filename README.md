@@ -1,2 +1,15 @@
 # Group-Project_Developing-Intelligent-Apps
- Group Project for AIDI_2000
+## Members:
+### Justin Collier | 100345263
+
+# Work Distribution:
+## Justin Collier:
+### * ...
+
+Data Sources/References: ... 
+ 
+## Changelog
+### July, 10. 2024 - Justin
+### Initial Commit / ReadME Formatting
++ Initialized the project repo & readme file
+
