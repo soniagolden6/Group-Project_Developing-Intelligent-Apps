@@ -12,7 +12,7 @@ model = load_model('../models/sentiment_model.h5')
 with open('../models/tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
-max_sequence_length = 100  # same as during model training
+max_sequence_length = 200  # Updated to 200
 
 @app.route('/')
 def home():
@@ -29,7 +29,7 @@ def predict():
         padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length)
         prediction = model.predict(padded_sequences)[0][0]
 
-        sentiment = 'Positive' if prediction > 0.5 else 'Negative'
+        sentiment = 'Positive' if prediction <= 0.5 else 'Negative'  # Adjusting threshold to 0.5
 
         return render_template('index.html', text=text, prediction=sentiment)
 
