@@ -1,10 +1,8 @@
 # Group-Project_Developing-Intelligent-Apps
 ## Members:
 ### Justin Collier | 100345263
-
-# Work Distribution:
-## Justin Collier:
-### * ...
+### Ahsan Ejaz
+### Jashanpreet Kaur
 
 Data Sources/References: ... 
  
