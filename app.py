@@ -11,7 +11,7 @@ CORS(app)
 
 # Load the sentiment analysis model and tokenizer
 model = load_model('./models/sentiment_model.h5')
-with open('../models/tokenizer.pkl', 'rb') as handle:
+with open('./models/tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 max_sequence_length = 200
