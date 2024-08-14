@@ -1,0 +1,5 @@
+Instructions for activating Virtual Enviorment / Adding new libraries
+
+1. CD into this project directory
+
+2. in the CMD window type "env\Scripts\activate"
